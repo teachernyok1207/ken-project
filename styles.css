@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+ 
+.hero-section {
+  color: #ddb892;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-four {
+  background-color: #e6ccb2;
+  background-image: url("images/four.jpg");
+  background-repeat: none;
+  background-size: cover;
+  padding: 200px;
+}
+
+#hero-title {
+  background-color: #7f5539;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 400px;
+  font-weight: bold;
+}
+
+#hero-info {
+  background-color: #7f5539;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.activities-section {
+  color: #e6ccb2;
+  background-color: #7f5539;
+  padding: 50px;
+
+}
+
+#activities-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+#activities-title {
+  padding-bottom: 20px;
+}
+
+.activities-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #ddb892;
+  margin-bottom: 15px;
+}
+
+#activities-two {
+  padding: 10px;
+  margin: 10px;
+}
+
+#activities-three {
+  padding: 10px;
+  margin: 10px;
+}
+
+#activities-five {
+  padding: 10px;
+  margin: 10px;
+}
+
+.guide-card {
+  background: #e6ccb2;
+  color: #7f5539;
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+  display: block;
+  padding: 0 20px;
+  border-radius: 50px;
+  border-bottom: 20px solid #283618;
+}
+
+#guide-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+#guide-card-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #activities-title {
+  margin-bottom: 5px;
+} */
+
+#guide-bio {
+  margin-bottom: 10px;
+}
